@@ -1,4 +1,7 @@
 document.addEventListener("DOMContentLoaded", function() {
+    // 默认显示全部图片
+    filterImages('all');
+
     const buttons = document.querySelectorAll('.category-button');
 
     buttons.forEach(button => {
